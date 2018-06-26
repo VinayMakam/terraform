@@ -4,6 +4,7 @@
 BLACKLIST="/dev/sda|/dev/sdb"
 # Base directory to hold the data* files
 DATA_BASE="/media"
+
 usage() {
     echo "Usage: $(basename $0) <new disk>"
 }
